@@ -1,6 +1,5 @@
 <manifest>
 <remote name="github" fetch="https://github.com/JioCloud"/>
-<remote name="temp" fetch="https://github.com/vpramo"/>
 
 <default revision="R2.1" remote="github"/>
 
@@ -12,7 +11,7 @@
 <project name="contrail-third-party" remote="github" path="third_party"/>
 <project name="contrail-generateDS" remote="github" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh"/>
-<project name="contrail-third-party-packages" revision="docker_chagelog_fix" remote="temp" path="tools/third-party-packages"/>
+<project name="contrail-third-party-packages" revision="refs/heads/master" remote="github" path="tools/third-party-packages"/>
 <project name="contrail-packages" remote="github" path="tools/packages">
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
